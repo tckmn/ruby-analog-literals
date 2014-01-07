@@ -1,8 +1,7 @@
-class Module
-    def const_missing c
-        Measurer.new 0
-    end
+def o
+    Measurer.new 0
 end
+alias oo o
 
 class Measurer
     attr_accessor :val, :bangs
