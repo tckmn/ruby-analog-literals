@@ -8,26 +8,25 @@ Inspired by http://www.eelis.net/C++/analogliterals.xhtml. No 3D... yet!
 Example:
 
     # 1D
-    puts OO #0
-    puts O-O #1
-    puts O--O #2
-    puts O---O #3
-    # prettier delimiters work too
-    puts I----I #4
-    puts I-----I #5
+    puts oo      # 0
+    puts o-o     # 1
+    puts o--o    # 2
+    puts o---o   # 3
+    puts o----o  # 4
+    puts o-----o # 5
     
     # 2D
     
-    puts((O---O
+    puts((o---o
           !   !
           !   !
           !   !
           !   !
           !   !
-          O---O)) #15
+          o---o)) # 15
     
-    puts((O------O
+    puts((o------o
           !      !
           !      !
           !      !
-          O------O)) #18
+          o------o)) # 18
