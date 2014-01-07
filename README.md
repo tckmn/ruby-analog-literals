@@ -3,6 +3,8 @@ ruby-analog-literals
 
 Visualize your numbers!
 
+Inspired by http://www.eelis.net/C++/analogliterals.xhtml. No 3D... yet!
+
 Example:
 
     # 1D
